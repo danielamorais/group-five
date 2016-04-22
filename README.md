@@ -1,14 +1,16 @@
-ControleMassaeErosao
-====================
+#Control of Mass Movement
+> Software developed to prevent the mass movement and help to get a fast evacuation of the people in risk area
 
-Projeto desenvolvido na matéria de Desenvolvimento de Software no Colégio Técnico de Limeira, a proposta é prevenir 
-deslizamentos de massa e consequentemente permitir uma rápida evacuação do local. Através do Arduino UNO conectado no 
-acelerômetro MMA7361, sensor de umidade de solo, buzzer e módulo cartão SD. O microcontrolador estará instalado no local 
-suscetível a deslizar, o acelerômetro verificará os eixos X, Y e Z e o sensor de umidade enviará dados sobre a atual 
-situação do solo, já que em grandes volumes de chuva o solo estará saturado e a possibilidade do desastre será maior. 
-Caso haja algum movimento, o arraste de materiais no solo irá alterar a posição do acelerômetro e tudo poderá ser 
-acompanhado em tempo real via software. O projeto apresenta dependência de conexão com a internet, porém para alertar moradores sobre o risco, um buzzer emitirá alerta sonoro quando o acelerômetro for afetado.
+The Embedded System is fixed in some risk area and is responsible to collect and analyse metadatas.
+Datas about humidity of soil and position of device are an importants factores to consider, the probability of the mass movement occur in risks areas is more higher and occurs slowly along the time not instantly.<br>
+Thanks to the datas we can monitor how susceptible is that area.
 
-Sinta-se a vontade para desenvolver e/ou utilizar o projeto!
+### How contributing
+You're welcome to contribute and we strongly encourage you to test and use of scientific methods! 
 
-By Daniela Marques de Morais
+### License and credits
+This idea was developed at Colegio Tecnico de Limeira and have inteclectual protection.<br> 
+It's  a free software licensed under the [MIT License](https://github.com/danielamorais/group-five/blob/master/LICENSE.md).
+
+### Author 
+@danielammorais / [danielammorais.com](https://www.danielammorais.com)
